@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082490412D794AEA0036230A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0824903B2D794AEA0036230A /* Preview Assets.xcassets */; };
+		082490422D794AEA0036230A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0824903D2D794AEA0036230A /* Assets.xcassets */; };
+		082490432D794AEA0036230A /* FlutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824903E2D794AEA0036230A /* FlutterView.swift */; };
+		082490442D794AEA0036230A /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824903F2D794AEA0036230A /* MyApp.swift */; };
 		3B04417862D9B83C93EFF927 /* Pods_flutter_add_to_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5350014B0497BAF8626657E0 /* Pods_flutter_add_to_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0824903B2D794AEA0036230A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0824903D2D794AEA0036230A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0824903E2D794AEA0036230A /* FlutterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterView.swift; sourceTree = "<group>"; };
+		0824903F2D794AEA0036230A /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		08875A932D72ACFC00F9C78E /* flutter_add_to_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutter_add_to_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5350014B0497BAF8626657E0 /* Pods_flutter_add_to_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flutter_add_to_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B21BFE3787F2D2FED6593F /* Pods-flutter_add_to_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutter_add_to_app.release.xcconfig"; path = "Target Support Files/Pods-flutter_add_to_app/Pods-flutter_add_to_app.release.xcconfig"; sourceTree = "<group>"; };
 		B7D1F27ECD67937D8A90BD45 /* Pods-flutter_add_to_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutter_add_to_app.debug.xcconfig"; path = "Target Support Files/Pods-flutter_add_to_app/Pods-flutter_add_to_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		08875A952D72ACFC00F9C78E /* flutter_add_to_app */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = flutter_add_to_app;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		08875A902D72ACFC00F9C78E /* Frameworks */ = {
@@ -37,10 +37,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0824903C2D794AEA0036230A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0824903B2D794AEA0036230A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		082490402D794AEA0036230A /* flutter_add_to_app */ = {
+			isa = PBXGroup;
+			children = (
+				0824903C2D794AEA0036230A /* Preview Content */,
+				0824903D2D794AEA0036230A /* Assets.xcassets */,
+				0824903E2D794AEA0036230A /* FlutterView.swift */,
+				0824903F2D794AEA0036230A /* MyApp.swift */,
+			);
+			path = flutter_add_to_app;
+			sourceTree = "<group>";
+		};
 		08875A8A2D72ACFC00F9C78E = {
 			isa = PBXGroup;
 			children = (
-				08875A952D72ACFC00F9C78E /* flutter_add_to_app */,
+				082490402D794AEA0036230A /* flutter_add_to_app */,
 				08875A942D72ACFC00F9C78E /* Products */,
 				B142A949C10BCB6A67C44551 /* Pods */,
 				74B3DCEEB315CE27ADC0293D /* Frameworks */,
@@ -90,9 +109,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				08875A952D72ACFC00F9C78E /* flutter_add_to_app */,
-			);
 			name = flutter_add_to_app;
 			productName = flutter_add_to_app;
 			productReference = 08875A932D72ACFC00F9C78E /* flutter_add_to_app.app */;
@@ -137,6 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082490412D794AEA0036230A /* Preview Assets.xcassets in Resources */,
+				082490422D794AEA0036230A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082490432D794AEA0036230A /* FlutterView.swift in Sources */,
+				082490442D794AEA0036230A /* MyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
