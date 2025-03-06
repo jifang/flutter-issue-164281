@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -130,6 +130,7 @@
 				};
 			};
 			buildConfigurationList = 08875A8E2D72ACFC00F9C78E /* Build configuration list for PBXProject "flutter_add_to_app" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,7 +139,6 @@
 			);
 			mainGroup = 08875A8A2D72ACFC00F9C78E;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 08875A942D72ACFC00F9C78E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
